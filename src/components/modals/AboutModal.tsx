@@ -37,11 +37,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           Aidan Pine's fork
         </a>{' '}
         and customize it for another language! The words for this Wordle were
-        sourced from{' '}
-        <a href={CONFIG.wordListSourceLink} className="underline font-bold">
-          {CONFIG.wordListSource}
-        </a>
-        . Or,
+        sourced from {CONFIG.wordListSource}. Or,
         {' you can also '}
         <a
           href="https://www.powerlanguage.co.uk/wordle/"
